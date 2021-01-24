@@ -842,8 +842,8 @@ rm -rf "${TMPDIR}" 2>/dev/null
 
 if [[ -s "${PROJECT_DIR}"/.github_token ]]; then
 	GITHUB_TOKEN=$(< "${PROJECT_DIR}"/.github_token)	# Write Your Github Token In a Text File
-	[[ -z "$(git config --get user.email)" ]] && git config user.email "DroidDumps@github.com"
-	[[ -z "$(git config --get user.name)" ]] && git config user.name "DroidDumps"
+	[[ -z "$(git config --get user.email)" ]] && git config user.email "manofuranium@gmail.com"
+	[[ -z "$(git config --get user.name)" ]] && git config user.name "ElytrA8"
 	if [[ -s "${PROJECT_DIR}"/.github_orgname ]]; then
 		GIT_ORG=$(< "${PROJECT_DIR}"/.github_orgname)	# Set Your Github Organization Name
 	else
